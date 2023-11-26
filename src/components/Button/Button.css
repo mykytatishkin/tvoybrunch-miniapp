@@ -11,10 +11,10 @@
 /* CSS */
 .button {
     background-color: var(--tg-theme-button-color);
-    border: 1px solid #222222;
+    border: 1px solid var(--tg-theme-button-text-color);
     border-radius: 8px;
     box-sizing: border-box;
-    color: #222222;
+    color: var(--tg-theme-button-text-color);
     cursor: pointer;
     display: inline-block;
     font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
