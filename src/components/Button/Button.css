@@ -40,14 +40,14 @@
 }
 
 .button:active {
-    background-color: #F7F7F7;
-    border-color: #000000;
+    background-color: var(--tg-theme-button-color);
+    border-color: var(--tg-theme-button-text-color);
     transform: scale(.96);
 }
 
 .button:disabled {
-    border-color: #DDDDDD;
-    color: #DDDDDD;
+    border-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-color);
     cursor: not-allowed;
     opacity: 1;
 }
