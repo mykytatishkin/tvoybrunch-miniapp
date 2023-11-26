@@ -10,6 +10,7 @@ root.render(
   <React.StrictMode>
       <BrowserRouter>
           <App />
+          Created by @mykytatishkin
       </BrowserRouter>
   </React.StrictMode>
 );
