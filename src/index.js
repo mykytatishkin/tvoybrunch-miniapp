@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
       <BrowserRouter>
           <App />
-          Created by @mykytatishkin
+          Created by <a href='https://t.me/mykytatishkin'>@mykytatishkin</a>
       </BrowserRouter>
   </React.StrictMode>
 );
