@@ -34,18 +34,18 @@
     width: auto;
 }
 
-.button-23:focus-visible {
+.button:focus-visible {
     box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
     transition: box-shadow .2s;
 }
 
-.button-23:active {
+.button:active {
     background-color: #F7F7F7;
     border-color: #000000;
     transform: scale(.96);
 }
 
-.button-23:disabled {
+.button:disabled {
     border-color: #DDDDDD;
     color: #DDDDDD;
     cursor: not-allowed;
