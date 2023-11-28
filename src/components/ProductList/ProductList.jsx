@@ -5,14 +5,14 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
-    {id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
-    {id: '7', title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '1', title: 'Бокс с Круасанами', price: 81, description: 'Свежие и вкусные круасаны'},
+    {id: '2', title: 'Бокс Тарталетки delicious', price: 101, description: 'L (≈ 1 190 гр)101 р. (25шт) \nM (≈ 740 гр)91 р. (20шт) \nXL (≈ 1 510 гр)131 р. (30шт)'},
+    {id: '3', title: 'Бокс Брускетта delicious', price: 101, description: 'L (≈ 910 гр)101 р. (16шт) \nM (≈ 750 гр)91 р. (12шт) \nXL (≈ 1 290 гр)131 р. (24шт)'},
+    {id: '4', title: 'Бокс Веганский', price: 91, description: 'Набор для веганов'},
+    {id: '5', title: 'Бокс десертный', price: 77, description: 'Для любителей сладкого'},
+    {id: '6', title: 'Бокс Завтрак Европейский', price: 81, description: 'Европейский завтрак'},
+    {id: '7', title: 'Бокс завтрак семейный', price: 81, description: 'Для вкусного семейного завтрака'},
+    {id: '8', title: 'Бокс к белому вину', price: 97, description: ' L (≈ 1 295 гр)97 р. \nМ (≈ 895 гр)87 р. \nXL (≈ 1 700 гр)127 р'},
 ]
 
 const getTotalPrice = (items = []) => {
@@ -31,7 +31,7 @@ const ProductList = () => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('http://85.119.146.179:8000/web-data', {
+        fetch('https://tvoybranch.azurewebsites.net/web-data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
