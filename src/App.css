@@ -14,8 +14,9 @@ li a {
   border-radius: 10px;
   text-decoration: none;
   margin-bottom: 1em;
-  margin-left: 1em;
+  margin-right: 1em;
   color: var(--tg-theme-text-color); 
+  padding: .5em .5em .5em .5em;
   background-color: var(--tg-theme-button-color);
 
   display: flex;

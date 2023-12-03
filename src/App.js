@@ -18,10 +18,10 @@ function App() {
             <Header />
             <list className={'topnav'}>
                 <ul>
-                    <li><a href="#">🔥Горячие предложения</a></li>
-                    <li><a href="#size_box">🍱Комбо Боксы</a></li>
-                    <li><a href="#box">🥡Боксы</a></li>
-                    <li><a href="#pie">🥧Пироги</a></li>
+                    <li><a href="#">🔥 Горячие предложения</a></li>
+                    <li><a href="#size_box">🍱 Комбо Боксы</a></li>
+                    <li><a href="#box">🥡 Боксы</a></li>
+                    <li><a href="#pie">🥧 Пироги</a></li>
                 </ul>
             </list>
             <Routes>
