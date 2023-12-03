@@ -12,11 +12,11 @@
 
 li a {
   border-radius: 10px;
-  border-color: var(--tg-theme-button-hover-color);
   text-decoration: none;
   margin-bottom: 1em;
   margin-left: 1em;
-  color: var(--tg-theme-text-color);
+  color: var(--tg-theme-text-color); 
+  background-color: var(--tg-theme-button-color);
 
   display: flex;
   flex-wrap: nowrap;
