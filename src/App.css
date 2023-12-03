@@ -26,6 +26,6 @@ ul {
 }
 
 /* Добавляем стили для придания фона активному элементу */
-a:hover {
+li a:hover {
   background-color: var(--tg-theme-button-hover-color);
 }
