@@ -12,7 +12,10 @@
 
 li a {
   border-radius: 10px;
+  border-color: var(--tg-theme-button-hover-color);
   text-decoration: none;
+  margin-bottom: 1em;
+  margin-left: 1em;
   color: var(--tg-theme-text-color);
 
   display: flex;
@@ -27,9 +30,4 @@ ul {
   margin: 0;
   display: flex; /* Располагаем элементы в ряд */
   overflow-y: hidden; /* Добавляем скролл, если контент не помещается */
-}
-
-/* Добавляем стили для придания фона активному элементу */
-li a:hover {
-  background-color: var(--tg-theme-button-hover-color);
 }
