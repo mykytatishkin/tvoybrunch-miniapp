@@ -13,16 +13,19 @@ const ProductItem = ({product, className, onAdd}) => {
             
             <div>
                 <hr />
-                <div className={'title'}><b><h1>{product.title}</h1></b></div>
+                <div id={product.id} className={'title'}><b><h1>{product.title}</h1></b></div>
                 <div className={'description'}><h3>{product.description}</h3></div>
             </div>
             
         );
     } 
+    // TODO : change image to this, when ull get pictures
+    // TODO : <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
     else {
         return (
-            <div id={product.type}  className={'product ' + className}>
-                <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
+            <div id={product.id} className={'product ' + className}>
+                
+                <div className={'img'}><img className={'img'} src="https://cdn3.emoji.gg/default/facebook/bento-box.png" alt="picture"/></div>
                 <div className={'title'}><b>{product.title}</b></div>
                 <div className={'description'}>{product.description}</div>
                 <div className={'price'}>
