@@ -4,11 +4,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
 
 
 }
 
-* {
-  background: var(--tg-theme-bg-color);
+a {
+  background-color: var(--tg-theme-button-color);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
   color: var(--tg-theme-text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Располагаем элементы в ряд */
 }
