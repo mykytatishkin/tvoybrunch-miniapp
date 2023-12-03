@@ -13,8 +13,8 @@ const ProductItem = ({product, className, onAdd}) => {
             
             <div>
                 <hr />
-                <div className={'title'}><b><h2>{product.title}</h2></b></div>
-                <div className={'description'}><b>{product.description}</b></div>
+                <div className={'title'}><b><h1>{product.title}</h1></b></div>
+                <div className={'description'}><h3>{product.description}</h3></div>
             </div>
             
         );
