@@ -12,9 +12,13 @@
 
 li a {
   border-radius: 10px;
-  overflow: hidden;
   text-decoration: none;
   color: var(--tg-theme-text-color);
+
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 ul {
@@ -22,7 +26,7 @@ ul {
   padding: 0;
   margin: 0;
   display: flex; /* Располагаем элементы в ряд */
-  overflow: auto; /* Добавляем скролл, если контент не помещается */
+  overflow-y: hidden; /* Добавляем скролл, если контент не помещается */
 }
 
 /* Добавляем стили для придания фона активному элементу */
