@@ -8,19 +8,33 @@ const ProductItem = ({product, className, onAdd}) => {
         onAdd(product);
     }
 
-    return (
-        <div id={product.type}  className={'product ' + className}>
-            <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
-            <div className={'title'}><b>{product.title}</b></div>
-            <div className={'description'}>{product.description}</div>
-            <div className={'price'}>
-                <span>Стоимость: <b>{product.price}</b></span>
+    if(product.type == 'tag') {
+        return ( 
+            
+            <div>
+                <hr />
+                <div className={'title'}><b><h2>{product.title}</h2></b></div>
+                <div className={'description'}><b>{product.description}</b></div>
             </div>
-            <Button className={'add-btn'} onClick={onAddHandler}>
-                Добавить в корзину
-            </Button>
-        </div>
-    );
+            
+        );
+    } 
+    else {
+        return (
+            <div id={product.type}  className={'product ' + className}>
+                <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
+                <div className={'title'}><b>{product.title}</b></div>
+                <div className={'description'}>{product.description}</div>
+                <div className={'price'}>
+                    <span>Стоимость: <b>{product.price}</b></span>
+                </div>
+                <Button className={'add-btn'} onClick={onAddHandler}>
+                    Добавить в корзину
+                </Button>
+            </div>
+        );
+    }
 };
+
 
 export default ProductItem;
