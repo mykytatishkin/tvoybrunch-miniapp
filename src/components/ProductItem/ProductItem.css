@@ -17,10 +17,12 @@
     background-color: var(--tg-theme-secondary-bg-color);
 }
 
-.description {
+.description .title .price{
     font-size: 0.8em;
     background-color: var(--tg-theme-secondary-bg-color);
 }
+
+
 
 .add-btn {
     width: 100%;
