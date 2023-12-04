@@ -10,7 +10,7 @@
 
 }
 
-li a {
+.topnav li a {
   border-radius: 10px;
   text-decoration: none;
   margin-top: .5em;
@@ -26,7 +26,7 @@ li a {
   white-space: nowrap;
 }
 
-ul {
+.topnav ul {
   list-style: none;
   padding: 0;
   margin: 0;

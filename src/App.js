@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import {Route, Routes} from 'react-router-dom'
 import ProductList from "./components/ProductList/ProductList";
 import Form from "./components/Form/Form";
+import Contacts from "./components/Contacts/Contacts"
 
 function App() {
     const {onToggleButton, tg} = useTelegram();
@@ -27,6 +28,7 @@ function App() {
             <Routes>
                 <Route index element={<ProductList />}/>
                 <Route path={'form'} element={<Form />}/>
+                <Route path={'contacts'} element={<Contacts />}/>
             </Routes>
         </div>
     );

@@ -1,0 +1,22 @@
+
+li a {
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: .5em;
+    margin-bottom: .1em;
+    margin-right: 1em;
+    color: var(--tg-theme-text-color); 
+    padding: .5em .5em .5em .5em;
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden; /* Добавляем скролл, если контент не помещается */
+}
