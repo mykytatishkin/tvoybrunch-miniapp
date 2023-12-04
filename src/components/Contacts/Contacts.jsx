@@ -53,8 +53,8 @@ const Form = () => {
     return (
         <div className={"form"}>
             <h2>Наши контактные данные</h2>
+            <hr/>
             <p><a href="https://www.google.com/maps/place/Vulitsa+Panamarenki+43%D0%B1,+Minsk,+Minskaja+voblas%C4%87,+Belarus/@53.8929889,27.4873939,19.13z/data=!4m6!3m5!1s0x46dbdaae1a437cdd:0x76e84036e9052437!8m2!3d53.8930043!4d27.4875863!16s%2Fg%2F11c25s9597?entry=ttu">г.Минск,ул.Пономаренко 43 Б </a></p>
-
             <list>
                 <ul>
                     <li><a><b>Телефон&nbsp;:&nbsp;</b>+ 375 29 858-81-18</a></li>
@@ -65,6 +65,7 @@ const Form = () => {
             </list>
 
             <h3>Прием заказов осуществляется</h3>
+            <hr/>
             <list>
                 <ul>
                     <li><b>Понедельник</b> &nbsp; 9:00-20:00</li>
