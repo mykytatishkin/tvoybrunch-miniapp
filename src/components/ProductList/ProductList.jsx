@@ -138,7 +138,7 @@ const ProductList = () => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('http://www.tvoybranch-backend.space/web-data', {
+        fetch('http://www.tvoybranch-backend.space', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
