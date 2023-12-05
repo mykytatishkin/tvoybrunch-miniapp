@@ -9,7 +9,7 @@ const Form = () => {
     const {tg} = useTelegram();
 
     return (
-        <div className={"profile"}>
+        <div>
             <h2>Ваш профиль</h2>
             
         </div>
