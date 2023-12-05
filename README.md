@@ -1,3 +1,7 @@
+Code literacy:
+Color for btn : --tg-theme-button-text-color
+Color for all : --tg-theme-text-color
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

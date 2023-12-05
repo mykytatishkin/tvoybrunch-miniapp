@@ -16,7 +16,7 @@
   margin-top: .5em;
   margin-bottom: .1em;
   margin-right: 1em;
-  color: var(--tg-theme-text-color); 
+  color: var(--tg-theme-button-text-color); 
   padding: .5em .5em .5em .5em;
   background-color: var(--tg-theme-button-color);
 
