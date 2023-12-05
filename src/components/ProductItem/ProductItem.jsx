@@ -13,7 +13,8 @@ const ProductItem = ({product, className, onAdd}) => {
             
             <div>
                 <hr />
-                <div id={product.id} className={'title'}><b><h1>{product.title}</h1></b></div>
+                <div  id={product.id}><img className='ico' src={product.image} alt="" /></div>
+                <div className={'title'}><b><h1>{product.title}</h1></b></div>
                 <div className={'description'}><h3>{product.description}</h3></div>
             </div>
             
@@ -23,7 +24,7 @@ const ProductItem = ({product, className, onAdd}) => {
     // TODO : <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
     else {
         return (
-            <div id={product.id} className={'product ' + className}>
+            <div id={product.id} className={'product'}>
                 
                 <div className={'img'}><img className={'img'} src="https://cdn3.emoji.gg/default/facebook/bento-box.png" alt="picture"/></div>
                 <div className={'title'}><b>{product.title}</b></div>

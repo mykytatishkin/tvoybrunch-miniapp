@@ -8,3 +8,10 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+
+.ico {
+    height: 25%;
+    width: 25%;
+    background-color: var(--tg-theme-button-color);
+}

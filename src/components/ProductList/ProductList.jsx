@@ -5,8 +5,12 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [ 
+     // ** TAG
+    {id: 'offers', title: 'Горячие предложения',              image: 'https://em-content.zobj.net/source/telegram/386/fire_1f525.webp', size:'',     price: 11,   type:'tag',        description: 'Специальные акции'},
+     // ** TAG
+
     // ** TAG
-    {id: 'size_box', title: '🍱 Комбо Боксы',                            image: '', size:'',     price: 11,   type:'tag',        description: 'Боксы с разными продуктами на любой вкус и цвет и главное, на любой размер'},
+    {id: 'size_box', title: 'Комбо Боксы',                      image: 'https://em-content.zobj.net/source/telegram/386/bento-box_1f371.webp', size:'',     price: 11,   type:'tag',        description: 'Боксы с разными продуктами на любой вкус и цвет и главное, на любой размер'},
     // ** TAG
     
     {id: '1',  title: 'Бокс с Тарталетками',                    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png', size:'M',    price: 91,  type:'size_box',  description: '20 штук - 740 грамм'},
@@ -53,7 +57,7 @@ const products = [
     {id: '32', title: 'Бокс Сырный',                            image: '', size:'XL',   price: 131,  type:'size_box',   description: '1550 грамм'},
 
     // ** TAG
-    {id: 'box', title: '🥡 Боксы',                            image: '', size:'',     price: 11,   type:'tag',        description: 'Боксы с вкусной начинкой'},
+    {id: 'box', title: 'Боксы',                                 image: 'https://em-content.zobj.net/source/telegram/386/sandwich_1f96a.webp', size:'',     price: 11,   type:'tag',        description: 'Боксы с вкусной начинкой'},
     // ** TAG
 
     {id: '33', title: 'Бокс Веганский',                         image: '', size:'',     price: 91,   type:'box',         description: ''},
@@ -73,7 +77,7 @@ const products = [
     {id: '47', title: 'Бокс GastroBox ',                        image: '', size:'',     price: 11,   type:'box',        description: ''},  
 
     // ** TAG
-    {id: 'pie', title: '🥧 Пироги',                            image: '', size:'',     price: 11,   type:'tag',        description: 'Свежие и вкусные пироги на любой вкус'},
+    {id: 'pie', title: 'Пироги',                                image: 'https://em-content.zobj.net/source/telegram/386/pie_1f967.webp', size:'',     price: 11,   type:'tag',        description: 'Свежие и вкусные пироги на любой вкус'},
     // ** TAG
 
     {id: '48', title: 'Пирог Осенний',                          image: '', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},

@@ -18,13 +18,12 @@ function App() {
     return (
         <div className="App">
             <Header />
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
             <list className={'topnav'}>
                 <ul>
-                    <li><a href="#"><img className='ico' src="https://em-content.zobj.net/source/telegram/386/fire_1f525.webp"/> Горячие предложения</a></li>
+                    <li><a href="#offers">🔥 Горячие предложения</a></li>
                     <li><a href="#size_box">🍱 Комбо Боксы</a></li>
                     <li><a href="#box">🥡 Боксы</a></li>
-                    <li><a href="#pie">🥧 Пироги</a></li>
+                    <li><a href="#pie">🥧Пироги</a></li>
                 </ul>
             </list>
             <Routes>
