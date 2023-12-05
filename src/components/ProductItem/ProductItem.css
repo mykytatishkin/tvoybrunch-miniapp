@@ -14,7 +14,7 @@
     height: 100px;
     margin: 0 auto;
     /* background: var(--tg-theme-button-color); */
-    background-color: var(--tg-theme-secondary-bg-color);
+    /* background-color: var(--tg-theme-secondary-bg-color); */
 }
 
 .description .title .price{
