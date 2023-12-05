@@ -19,7 +19,7 @@ function App() {
             <Header />
             <list className={'topnav'}>
                 <ul>
-                    <li><a href="#">🔥 Горячие предложения</a></li>
+                    <li><a href="#"><img className='ico' src="https://em-content.zobj.net/source/telegram/386/fire_1f525.webp"/> Горячие предложения</a></li>
                     <li><a href="#size_box">🍱 Комбо Боксы</a></li>
                     <li><a href="#box">🥡 Боксы</a></li>
                     <li><a href="#pie">🥧 Пироги</a></li>
