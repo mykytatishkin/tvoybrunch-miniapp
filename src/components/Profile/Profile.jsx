@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useState} from 'react';
-import './Contacts.css';
+import './Profile.css';
 import {useTelegram} from "../../hooks/useTelegram";
 
 const Form = () => {
@@ -9,7 +9,7 @@ const Form = () => {
     const {tg} = useTelegram();
 
     return (
-        <div className={"form"}>
+        <div className={"profile"}>
             <h2>Ваш профиль</h2>
             
         </div>
