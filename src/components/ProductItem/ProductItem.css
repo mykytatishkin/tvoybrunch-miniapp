@@ -21,6 +21,7 @@
 .description .title .price{
     font-size: 0.8em;
     color: var(--tg-theme-hint-color);
+    background-color: red;
     /* background-color: var(--tg-theme-secondary-bg-color); */
 }
 
