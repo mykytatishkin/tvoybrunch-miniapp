@@ -5,8 +5,8 @@
     padding: .7em;
     width: 170px;
     border-radius: 12px;
-    background-color: red;
-    /* var(--tg-theme-secondary-bg-color) */
+    background-color: var(--tg-theme-secondary-bg-color);
+    /*  */
 }
 
 

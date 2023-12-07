@@ -11,7 +11,7 @@
 /* CSS */
 .button {
     background-color: var(--tg-theme-button-color);
-    border-radius: 8px;
+    border-radius: 1px;
     box-sizing: border-box;
     color: var(--tg-theme-button-text-color);
     cursor: pointer;
