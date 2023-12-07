@@ -9,9 +9,9 @@
 
 
 /* CSS */
-.button {
+.button-test{
     background-color: var(--tg-theme-button-color);
-    border-radius: 8px;
+    border-radius: 1px;
     box-sizing: border-box;
     color: var(--tg-theme-button-text-color);
     cursor: pointer;
@@ -31,6 +31,23 @@
     user-select: none;
     -webkit-user-select: none;
     width: auto;
+}
+
+.button {
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: .5em;
+    margin-bottom: .1em;
+    margin-right: 1em;
+    color: var(--tg-theme-button-text-color); 
+    padding: .5em .5em .5em .5em;
+    background-color: var(--tg-theme-button-color);
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-color: var(--tg-theme-button-color);
 }
 
 .button:focus-visible {
