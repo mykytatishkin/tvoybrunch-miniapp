@@ -47,7 +47,7 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
-    border-color: var(--tg-theme-button-text-color);
+    border-color: var(--tg-theme-button-color);
 }
 
 .button:focus-visible {
