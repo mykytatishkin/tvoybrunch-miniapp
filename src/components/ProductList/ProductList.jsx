@@ -5,9 +5,9 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [ 
-     // ** TAG
+    // ** TAG
     {id: 'offers', title: 'Горячие предложения',              image: 'https://em-content.zobj.net/source/telegram/386/fire_1f525.webp', size:'',     price: 11,   type:'tag',        description: 'Специальные акции'},
-     // ** TAG
+    // ** TAG
 
     // ** TAG
     {id: 'size_box', title: 'Комбо Боксы',                      image: 'https://em-content.zobj.net/source/telegram/386/bento-box_1f371.webp', size:'',     price: 11,   type:'tag',        description: 'Боксы с разными продуктами на любой вкус и цвет и главное, на любой размер'},
