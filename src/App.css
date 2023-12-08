@@ -42,3 +42,7 @@
   display: flex; /* Располагаем элементы в ряд */
   overflow-y: hidden; /* Добавляем скролл, если контент не помещается */
 }
+
+.dev_contact {
+  color: var(--tg-theme-hint-color);
+}

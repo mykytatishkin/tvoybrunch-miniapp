@@ -33,6 +33,7 @@ function App() {
                 <Route path={'contacts'} element={<Contacts />}/>
                 <Route path={'profile'} element={<Profile />}/>
             </Routes>
+            <a className='dev_contact' href='https://t.me/ktotam112'> Contact developer </a>
         </div>
     );
 }

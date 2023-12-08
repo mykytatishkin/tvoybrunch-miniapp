@@ -10,7 +10,6 @@ root.render(
   <React.StrictMode>
       <BrowserRouter>
           <App />
-          <a style={"color: var(--tg-theme-button-text-color)"} href='https://t.me/ktotam112'> Contact developer </a>
       </BrowserRouter>
   </React.StrictMode>
 );
