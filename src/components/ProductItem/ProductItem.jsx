@@ -15,7 +15,7 @@ const ProductItem = ({product, className, onAdd}) => {
                 <hr />
                 <div  id={product.id}><img className='ico' src={product.image} alt="" /></div>
                 <div className={'title'}><b><h1>{product.title}</h1></b></div>
-                <div className={'description'}><h3>{product.description}</h3></div>
+                <div className={'description'}><p>{product.description}</p></div>
             </div>
             
         );

@@ -23,7 +23,19 @@
     background: var(--tg-theme-secondary-bg-color);
 }
 
-.description .title .price{
+.product .title {
+    background: red;
+}
+
+.product .description {
+    background: blue;
+}
+
+.product .price {
+    background: green;
+}
+
+.description{
     font-size: 0.8em;
     color: var(--tg-theme-hint-color);
     background: var(--tg-theme-secondary-bg-color);
