@@ -24,10 +24,10 @@
 }
 
 .product .title {
-    background: red;
+    background: var(--tg-theme-secondary-bg-color);
 }
 .product .title h4{
-    background: blue;
+    background: var(--tg-theme-secondary-bg-color);
 }
 
 .product .description {
