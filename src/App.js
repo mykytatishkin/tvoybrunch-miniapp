@@ -15,11 +15,10 @@ function App() {
         tg.ready();
     }, [])
 
-
     return (
         <div className="App">
             <Header />
-            <list id='myHeader' className={'topnav'}>
+            <list className={'topnav'}>
                 <ul>
                     <li><a href="#offers">🔥 Горячие предложения</a></li>
                     <li><a href="#size_box">🍱 Комбо Боксы</a></li>
