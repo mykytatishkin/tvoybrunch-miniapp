@@ -24,22 +24,23 @@
 }
 
 .product .title {
-    background: red;
+    background: var(--tg-theme-secondary-bg-color);
 }
 
 .product .description {
-    background: blue;
-}
-
-.product .price {
-    background: green;
-}
-
-.description{
-    font-size: 0.8em;
     color: var(--tg-theme-hint-color);
     background: var(--tg-theme-secondary-bg-color);
 }
+
+.product .price {
+    background: var(--tg-theme-secondary-bg-color);
+}
+
+/*.description{
+    font-size: 0.8em;
+    color: var(--tg-theme-hint-color);
+    background: var(--tg-theme-secondary-bg-color);
+}*/
 
 .add-btn {
     width: 100%;
