@@ -35,6 +35,9 @@
     background: var(--tg-theme-secondary-bg-color);
 }
 
+.product .price {
+    background: var(--tg-theme-secondary-bg-color);
+}
 .product .price b {
     background: var(--tg-theme-secondary-bg-color);
 }
