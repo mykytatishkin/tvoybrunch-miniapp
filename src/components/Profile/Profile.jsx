@@ -10,6 +10,8 @@ const Form = () => {
 
     return (
         <div className='profile'>
+            <br/>
+            <br/>
             <h2>Ваш профиль</h2>
             <p className={'username'}>
                 Телеграм: {user?.username}
