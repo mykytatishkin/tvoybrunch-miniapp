@@ -9,7 +9,7 @@
 
 
 /* CSS */
-.button-test{
+.button{
     background-color: var(--tg-theme-button-color);
     border-radius: 1px;
     box-sizing: border-box;
@@ -33,7 +33,7 @@
     width: auto;
 }
 
-.button {
+.button-t {
     border-radius: 10px;
     text-decoration: none;
     margin-top: .5em;
