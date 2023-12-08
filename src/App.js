@@ -7,6 +7,7 @@ import ProductList from "./components/ProductList/ProductList";
 import Form from "./components/Form/Form";
 import Contacts from "./components/Contacts/Contacts";
 import Profile from "./components/Profile/Profile"
+import Offers from "./components/Offers/Offers"
 
 
 function App() {
