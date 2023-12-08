@@ -17,7 +17,7 @@ function App() {
 
     return (
         <div className="App">
-            <Header />
+            
             <list className={'topnav'}>
                 <ul>
                     <li><a href="#offers">🔥 Горячие предложения</a></li>
@@ -26,6 +26,7 @@ function App() {
                     <li><a href="#pie">🥧Пироги</a></li>
                 </ul>
             </list>
+            <Header />
             <Routes>
                 <Route index element={<ProductList />}/>
                 <Route path={'form'} element={<Form />}/>
