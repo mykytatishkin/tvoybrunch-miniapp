@@ -27,7 +27,7 @@ const ProductItem = ({product, className, onAdd}) => {
             <div id={product.id} className={'product'}>
                 
                 <div className={'img'}><img className={'img'} src="https://cdn3.emoji.gg/default/facebook/bento-box.png" alt="picture"/></div>
-                <div className={'title'}><b>{product.title}</b></div>
+                <div className={'title'}><h4>{product.title}</h4></div>
                 <div className={'description'}>{product.description}</div>
                 <div className={'price'}>
                     <span>Стоимость: <b>{product.price}</b></span>

@@ -23,7 +23,7 @@
     background: var(--tg-theme-secondary-bg-color);
 }
 
-.product .title {
+.product .title h4 {
     background: var(--tg-theme-secondary-bg-color);
 }
 
@@ -32,7 +32,7 @@
     background: var(--tg-theme-secondary-bg-color);
 }
 
-.product .price {
+.product .price b {
     background: var(--tg-theme-secondary-bg-color);
 }
 
