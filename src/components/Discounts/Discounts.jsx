@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useState} from 'react';
-import './Offers.css';
+import './Discounts.css';
 import {useTelegram} from "../../hooks/useTelegram";
 
 const Offers = () => {
