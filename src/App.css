@@ -41,6 +41,7 @@
   color: var(--tg-theme-text-color); 
   display: flex; /* Располагаем элементы в ряд */
   overflow-y: hidden; /* Добавляем скролл, если контент не помещается */
+  background: var(--tg-theme-bg-color);
 }
 
 .dev_contact {
