@@ -12,17 +12,15 @@ const Form = () => {
         <div>
             <h2>Ваш профиль</h2>
             <p className={'username'}>
-                {user?.username}
+                Телеграмм: {user?.username}
             </p>
             <p className={'first_name'}>
-                {user?.first_name}
+                Имя: {user?.first_name}
             </p>
             <p className={'last_name'}>
-                {user?.last_name}
+                Фамилия: {user?.last_name}
             </p>
-            <p className={'photo_url'}>
-                {user?.photo_url}
-            </p>
+            <img className={'photo_url'} src={user?.photo_url}/>
         </div>
     );
 };
