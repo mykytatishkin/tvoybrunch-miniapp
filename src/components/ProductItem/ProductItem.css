@@ -26,6 +26,9 @@
 .product .title {
     background: red;
 }
+.product .title h4{
+    background: blue;
+}
 
 .product .description {
     color: var(--tg-theme-hint-color);
