@@ -7,7 +7,7 @@ import ProductList from "./components/ProductList/ProductList";
 import Form from "./components/Form/Form";
 import Contacts from "./components/Contacts/Contacts";
 import Profile from "./components/Profile/Profile"
-import Offers from "./components/Discounts/Discounts"
+import Discounts from "./components/Discounts/Discounts"
 
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
                 <Route path={'form'} element={<Form />}/>
                 <Route path={'contacts'} element={<Contacts />}/>
                 <Route path={'profile'} element={<Profile />}/>
-                <Route path={'discounts'} element={<Offers />}/>
+                <Route path={'discounts'} element={<Discounts />}/>
             </Routes>
             <a className='dev_contact' href='https://t.me/ktotam112'> Contact developer </a>
         </div>
