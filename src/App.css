@@ -6,8 +6,6 @@
   box-sizing: border-box;
   background: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
-
-
 }
 
 .topnav li a {
@@ -34,3 +32,4 @@
   display: flex; /* Располагаем элементы в ряд */
   overflow-y: hidden; /* Добавляем скролл, если контент не помещается */
 }
+
