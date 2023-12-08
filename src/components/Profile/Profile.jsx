@@ -12,7 +12,7 @@ const Form = () => {
         <div>
             <h2>Ваш профиль</h2>
             <p className={'username'}>
-                Телеграмм: {user?.username}
+                Телеграм: {user?.username}
             </p>
             <p className={'first_name'}>
                 Имя: {user?.first_name}
@@ -20,7 +20,9 @@ const Form = () => {
             <p className={'last_name'}>
                 Фамилия: {user?.last_name}
             </p>
-            <img className={'photo_url'} src={user?.photo_url}/>
+            <a className={'orders'}>
+                История заказов
+            </a>
         </div>
     );
 };
