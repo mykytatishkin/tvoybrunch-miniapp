@@ -11,18 +11,18 @@ const Form = () => {
     return (
         <div>
             <h2>Ваш профиль</h2>
-            <span className={'username'}>
+            <p className={'username'}>
                 {user?.username}
-            </span>
-            <span className={'first_name'}>
+            </p>
+            <p className={'first_name'}>
                 {user?.first_name}
-            </span>
-            <span className={'last_name'}>
+            </p>
+            <p className={'last_name'}>
                 {user?.last_name}
-            </span>
-            <span className={'photo_url'}>
+            </p>
+            <p className={'photo_url'}>
                 {user?.photo_url}
-            </span>
+            </p>
         </div>
     );
 };
