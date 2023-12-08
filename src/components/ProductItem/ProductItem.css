@@ -23,7 +23,7 @@
     background: var(--tg-theme-secondary-bg-color);
 }
 
-.product .title h4 {
+.product .title {
     background: red;
 }
 
