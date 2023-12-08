@@ -11,7 +11,7 @@ const ProductItem = ({product, className, onAdd}) => {
     if(product.type == 'tag') {
         return ( 
             
-            <div>
+            <div className={'product'}>
                 <hr />
                 <div  id={product.id}><img className='ico' src={product.image} alt="" /></div>
                 <div className={'title'}><b><h1>{product.title}</h1></b></div>
