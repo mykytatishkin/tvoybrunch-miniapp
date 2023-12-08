@@ -1,4 +1,8 @@
-.orders{
+.profile {
+    margin-left: 1em;
+}
+
+.orders {
     border-radius: 10px;
     text-decoration: none;
     margin-top: .5em;
@@ -7,4 +11,5 @@
     color: var(--tg-theme-button-text-color); 
     padding: .5em .5em .5em .5em;
     background-color: var(--tg-theme-button-color);
+    margin-bottom: 3em;
 }
