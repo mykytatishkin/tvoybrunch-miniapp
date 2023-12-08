@@ -1,3 +1,7 @@
+.topic {
+    margin-left: 1em;
+}
+
 .product {
     display: flex;
     flex-direction: column;
@@ -31,4 +35,10 @@
 
 .tag {
     padding-left: 1em;
+}
+
+.ico {
+    height: 25%;
+    width: 25%;
+    background: var(--tg-theme-bg-color);
 }
