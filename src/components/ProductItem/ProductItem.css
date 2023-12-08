@@ -24,7 +24,7 @@
 }
 
 .product .title h4 {
-    background: var(--tg-theme-secondary-bg-color);
+    background: red;
 }
 
 .product .description {
