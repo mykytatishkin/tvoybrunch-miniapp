@@ -2,7 +2,7 @@ import React, {useCallback, useEffect, useState} from 'react';
 import './Offers.css';
 import {useTelegram} from "../../hooks/useTelegram";
 
-const Form = () => {
+const Offers = () => {
     const [country, setCountry] = useState('');
     const [street, setStreet] = useState('');
     const [subject, setSubject] = useState('physical');
@@ -15,4 +15,4 @@ const Form = () => {
     );
 };
 
-export default Form;
+export default Offers;
