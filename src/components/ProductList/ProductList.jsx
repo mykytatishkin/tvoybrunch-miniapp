@@ -14,12 +14,12 @@ const products = [
     // ** TAG
     
     {id: '1',  title: 'Бокс с Тарталетками',                    image: '', size:'M',    price: 91,  type:'size_box',  description: '20 штук - 740 грамм'},
-    {id: '2',  title: 'Бокс с Тарталетками',                    image: '../imgs/Box_brusketty_delicious.jpg', size:'L',    price: 101, type:'size_box',    description: '25 штук - 1190 грамм'},
+    {id: '2',  title: 'Бокс с Тарталетками',                    image: '', size:'L',    price: 101, type:'size_box',    description: '25 штук - 1190 грамм'},
     {id: '3',  title: 'Бокс с Тарталетками',                    image: '', size:'XL',   price: 131, type:'size_box',    description: '30 штук - 1510 грамм'},
 
-    {id: '4',  title: 'Бокс Брускетта delicious',               image: '', size:'M',    price: 91,  type:'size_box',    description: '12 штук - 750 грамм'},
-    {id: '5',  title: 'Бокс Брускетта delicious',               image: '', size:'L',    price: 101, type:'size_box',    description: '16 штук - 910 грамм'},
-    {id: '6',  title: 'Бокс Брускетта delicious',               image: '', size:'XL',   price: 131, type:'size_box',    description: '24 штук - 1290 грамм'},
+    {id: '4',  title: 'Бокс Брускетта delicious',               image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/Box_brusketty_delicious.jpg', size:'M',    price: 91,  type:'size_box',    description: '12 штук - 750 грамм'},
+    {id: '5',  title: 'Бокс Брускетта delicious',               image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/Box_brusketty_delicious.jpg', size:'L',    price: 101, type:'size_box',    description: '16 штук - 910 грамм'},
+    {id: '6',  title: 'Бокс Брускетта delicious',               image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/Box_brusketty_delicious.jpg', size:'XL',   price: 131, type:'size_box',    description: '24 штук - 1290 грамм'},
 
     {id: '7', title: 'Бокс к белому вину',                      image: '', size:'M',    price: 87,  type:'size_box',    description: '895 грамм'},
     {id: '8', title: 'Бокс к белому вину',                      image: '', size:'L',    price: 97,  type:'size_box',    description: '1295 грамм'},
