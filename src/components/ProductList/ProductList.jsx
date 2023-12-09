@@ -13,8 +13,8 @@ const products = [
     {id: 'size_box', title: 'Комбо Боксы',                      image: 'https://em-content.zobj.net/source/telegram/386/bento-box_1f371.webp', size:'',     price: 11,   type:'tag',        description: 'Боксы с разными продуктами на любой вкус и цвет и главное, на любой размер'},
     // ** TAG
     
-    {id: '1',  title: 'Бокс с Тарталетками',                    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png', size:'M',    price: 91,  type:'size_box',  description: '20 штук - 740 грамм'},
-    {id: '2',  title: 'Бокс с Тарталетками',                    image: '', size:'L',    price: 101, type:'size_box',    description: '25 штук - 1190 грамм'},
+    {id: '1',  title: 'Бокс с Тарталетками',                    image: '', size:'M',    price: 91,  type:'size_box',  description: '20 штук - 740 грамм'},
+    {id: '2',  title: 'Бокс с Тарталетками',                    image: 'imgs\Box_brusketty_delicious.jpg', size:'L',    price: 101, type:'size_box',    description: '25 штук - 1190 грамм'},
     {id: '3',  title: 'Бокс с Тарталетками',                    image: '', size:'XL',   price: 131, type:'size_box',    description: '30 штук - 1510 грамм'},
 
     {id: '4',  title: 'Бокс Брускетта delicious',               image: '', size:'M',    price: 91,  type:'size_box',    description: '12 штук - 750 грамм'},
