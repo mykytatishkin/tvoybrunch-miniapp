@@ -84,13 +84,13 @@ const products = [
     {id: '49', title: 'Пирог Осенний',                          image: '', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
 
     {id: '50', title: 'Пирог с с вишней и рикоттой',            image: '', size:'M',    price: 39,   type:'pie',       description: '650 грамм'},
-    {id: '51', title: 'Пирог Осенний',                          image: '', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
+    {id: '51', title: 'Пирог c с вишней и рикоттой',            image: '', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
 
     {id: '52', title: 'Пирог с тунцом',                         image: '', size:'M',    price: 39,   type:'pie',       description: '650 грамм'},
     {id: '53', title: 'Пирог с тунцом',                         image: '', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
 
-    {id: '54', title: 'Пирог творожный с лимонной цедрой',      image: '', size:'M',    price: 39,   type:'pie',       description: '650 грамм'},
-    {id: '55', title: 'Пирог творожный с лимонной цедрой',      image: '', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
+    {id: '54', title: 'Пирог творожный с лимонной цедрой',      image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20tvorozhnyi.jpg', size:'M',    price: 39,   type:'pie',       description: '650 грамм'},
+    {id: '55', title: 'Пирог творожный с лимонной цедрой',      image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20tvorozhnyi.jpg', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
 
     {id: '54', title: 'Пирог с капустой и грибами',             image: '', size:'M',    price: 39,   type:'pie',       description: '650 грамм'},
     {id: '55', title: 'Пирог с капустой и грибами',             image: '', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
@@ -104,17 +104,17 @@ const products = [
     {id: '58', title: 'Пирог итальянский с говядиной',          image: '', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
     {id: '59', title: 'Пирог итальянский с говядиной',          image: '', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
 
-    {id: '60', title: 'Пирог чизкейк с нутеллой',               image: '', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
-    {id: '61', title: 'Пирог чизкейк с нутеллой',               image: '', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
+    {id: '60', title: 'Пирог чизкейк с нутеллой',               image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/pirog%20chizkeik%20s%20nutelloi.jpg?raw=true', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
+    {id: '61', title: 'Пирог чизкейк с нутеллой',               image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/pirog%20chizkeik%20s%20nutelloi.jpg?raw=true', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
 
-    {id: '62', title: 'Пирог с яблоком и вишней',               image: '', size:'M',    price: 37,   type:'pie',       description: '650 грамм'},
-    {id: '63', title: 'Пирог с яблоком и вишней',               image: '', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
+    {id: '62', title: 'Пирог с яблоком и вишней',               image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20yablokom%20i%20vishnei.jpg', size:'M',    price: 37,   type:'pie',       description: '650 грамм'},
+    {id: '63', title: 'Пирог с яблоком и вишней',               image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20yablokom%20i%20vishnei.jpg', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
 
-    {id: '64', title: 'Пирог четыре сыра',                      image: '', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
-    {id: '65', title: 'Пирог четыре сыра',                      image: '', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
+    {id: '64', title: 'Пирог четыре сыра',                      image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%204%20sura.jpg', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
+    {id: '65', title: 'Пирог четыре сыра',                      image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%204%20sura.jpg', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
 
-    {id: '66', title: 'Пирог с цыпленком и томатами',           image: '', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
-    {id: '67', title: 'Пирог с цыпленком и томатами',           image: '', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
+    {id: '66', title: 'Пирог с цыпленком и томатами',           image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20tsuplenkom.jpg', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
+    {id: '67', title: 'Пирог с цыпленком и томатами',           image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20tsuplenkom.jpg', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
 
     {id: '68', title: 'Пирог с лососем и моцареллой',           image: '', size:'M',    price: 48,   type:'pie',       description: '650 грамм'},
     {id: '69', title: 'Пирог с лососем и моцареллой',           image: '', size:'L',    price: 56,   type:'pie',       description: '1000 грамм'},
@@ -122,8 +122,8 @@ const products = [
     {id: '70', title: 'Пирог с прошутто и луковым конфитюром',  image: '', size:'M',    price: 48,   type:'pie',       description: '650 грамм'},
     {id: '71', title: 'Пирог с прошутто и луковым конфитюром',  image: '', size:'L',    price: 56,   type:'pie',       description: '1000 грамм'},
 
-    {id: '72', title: 'Пирог с соленой карамелью и орехами',    image: '', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
-    {id: '73', title: 'Пирог с соленой карамелью и орехами',    image: '', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
+    {id: '72', title: 'Пирог с соленой карамелью и орехами',    image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20solenoy%20karamelyu%20i%20orehami.jpg', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
+    {id: '73', title: 'Пирог с соленой карамелью и орехами',    image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20solenoy%20karamelyu%20i%20orehami.jpg', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
 ]
 
 const getTotalPrice = (items = []) => {
