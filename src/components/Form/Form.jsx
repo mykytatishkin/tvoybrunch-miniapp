@@ -77,7 +77,7 @@ const Form = () => {
                 <option value={'physical'}>Физ. лицо</option>
                 <option value={'legal'}>Юр. лицо</option>
             </select>
-            <select value={subject} onChange={onChangeDistrict} className={'select'}>
+            <select value={district} onChange={onChangeDistrict} className={'select'}>
                 <option value='0' >Выберите район</option>
                 <option value={'1'}>Район 1</option>
                 <option value={'2'}>Район 2</option>
