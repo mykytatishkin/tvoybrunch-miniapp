@@ -13,10 +13,11 @@ const Form = () => {
         const data = {
             country,
             street,
-            subject
+            subject,
+            district
         }
         tg.sendData(JSON.stringify(data));
-    }, [country, street, subject])
+    }, [country, street, subject, district])
 
     useEffect(() => {
         tg.onEvent('mainButtonClicked', onSendData)
@@ -32,7 +33,7 @@ const Form = () => {
     }, [])
 
     useEffect(() => {
-        if(!street || !country || district == '0' ) {
+        if(!street || !country || !district ) {
             tg.MainButton.hide();
         } else {
             tg.MainButton.show();
