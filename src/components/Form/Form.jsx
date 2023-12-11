@@ -32,7 +32,7 @@ const Form = () => {
     }, [])
 
     useEffect(() => {
-        if(!street || !country || !district && district != '0') {
+        if(!street || !country || district != '0') {
             tg.MainButton.hide();
         } else {
             tg.MainButton.show();
