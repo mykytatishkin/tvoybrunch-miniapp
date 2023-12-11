@@ -6,7 +6,7 @@ const Form = () => {
     const [country, setCountry] = useState('');
     const [street, setStreet] = useState('');
     const [subject, setSubject] = useState('physical');
-    const [district, setDistict] = useState('');
+    const [district, setDistrict] = useState('');
     const {tg} = useTelegram();
 
     const onSendData = useCallback(() => {
@@ -53,7 +53,7 @@ const Form = () => {
     }
 
     const onChangeDistrict= (e) => {
-        setDistict(e.target.value)
+        setDistrict(e.target.value)
     }
 
     return (
