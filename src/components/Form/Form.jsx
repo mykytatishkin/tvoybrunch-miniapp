@@ -32,7 +32,7 @@ const Form = () => {
     }, [])
 
     useEffect(() => {
-        if(!street || !country || district != '0') {
+        if(!street || !country || district == '0' ) {
             tg.MainButton.hide();
         } else {
             tg.MainButton.show();
@@ -76,7 +76,7 @@ const Form = () => {
                 <option value={'physical'}>Физ. лицо</option>
                 <option value={'legal'}>Юр. лицо</option>
             </select>
-            <select value={subject} onChange={onChangeSubject} className={'select'}>
+            <select value={subject} onChange={onChangeDistrict} className={'select'}>
                 <option value='0' >Выберите район</option>
                 <option value={'1'}>Район 1</option>
                 <option value={'2'}>Район 2</option>
