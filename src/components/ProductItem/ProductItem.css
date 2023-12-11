@@ -21,6 +21,7 @@
     height: 100px;
     margin: 0 auto;
     background: var(--tg-theme-secondary-bg-color);
+    border-radius: 12px;
 }
 
 .product .title {
