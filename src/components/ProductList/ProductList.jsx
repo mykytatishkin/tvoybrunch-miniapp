@@ -62,7 +62,6 @@ const products = [
     {id: '41', title: 'Бокс фруктовый',                         image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/Box%20fruktoviy.jpg', size:'',     price: 81,   type:'box',        description: ''},
     {id: '42', title: 'Бокс Тапас микс',                        image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20tapas.jpg', size:'',     price: 101,  type:'box',        description: ''},
     {id: '43', title: 'Бокс праздничный',                       image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20prazdnichnui.jpg', size:'',     price: 91,   type:'box',        description: ''},
-    {id: '44', title: 'Бокс осенний',                           image: '', size:'',     price: 101,  type:'box',        description: ''},
     {id: '45', title: 'Бокс девичник',                          image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20devichnik.jpg', size:'',     price: 91,   type:'box',        description: ''},
     {id: '46', title: 'Бокс от шефа ',                          image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20ot%20shefa.jpg', size:'',     price: 107,  type:'box',        description: ''},
     {id: '47', title: 'Бокс GastroBox ',                        image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20gastrobox.jpg', size:'',     price: 11,   type:'box',        description: ''},  
@@ -70,9 +69,6 @@ const products = [
     // ** TAG
     {id: 'pie', title: 'Пироги',                                image: 'https://em-content.zobj.net/source/telegram/386/pie_1f967.webp', size:'',     price: 11,   type:'tag',        description: 'Свежие и вкусные пироги на любой вкус'},
     // ** TAG
-
-    {id: '48', title: 'Пирог Осенний',                          image: '', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
-    {id: '49', title: 'Пирог Осенний',                          image: '', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
 
     {id: '50', title: 'Пирог с с вишней и рикоттой',            image: '', size:'M',    price: 39,   type:'pie',       description: '650 грамм'},
     {id: '51', title: 'Пирог c с вишней и рикоттой',            image: '', size:'L',    price: 47,   type:'pie',       description: '1000 грамм'},
