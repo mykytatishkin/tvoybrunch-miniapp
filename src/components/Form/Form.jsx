@@ -6,6 +6,7 @@ const Form = () => {
     const [country, setCountry] = useState('');
     const [street, setStreet] = useState('');
     const [subject, setSubject] = useState('physical');
+    const [district, setDistict] = useState('');
     const {tg} = useTelegram();
 
     const onSendData = useCallback(() => {
@@ -31,7 +32,7 @@ const Form = () => {
     }, [])
 
     useEffect(() => {
-        if(!street || !country) {
+        if(!street || !country || !district && district != '0') {
             tg.MainButton.hide();
         } else {
             tg.MainButton.show();
@@ -47,6 +48,10 @@ const Form = () => {
     }
 
     const onChangeSubject = (e) => {
+        setSubject(e.target.value)
+    }
+
+    const onChangeDistrict= (e) => {
         setSubject(e.target.value)
     }
 
@@ -71,6 +76,14 @@ const Form = () => {
                 <option value={'physical'}>Физ. лицо</option>
                 <option value={'legal'}>Юр. лицо</option>
             </select>
+            <select value={subject} onChange={onChangeSubject} className={'select'}>
+                <option value='0' >Выберите район</option>
+                <option value={'1'}>Район 1</option>
+                <option value={'2'}>Район 2</option>
+                <option value={'3'}>Район 3</option>
+                <option value={'4'}>Район 4</option>
+            </select>
+            
         </div>
     );
 };
