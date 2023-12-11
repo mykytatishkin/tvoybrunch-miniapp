@@ -37,10 +37,6 @@ const products = [
     {id: '17', title: 'Бокс Мясной',                            image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/box%20myasnoi.jpg?raw=true', size:'L',    price: 111,  type:'size_box',   description: '1025 грамм'},
     {id: '18', title: 'Бокс Мясной',                            image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/box%20myasnoi.jpg?raw=true', size:'XL',   price: 141,  type:'size_box',   description: '1405 грамм'},
 
-    {id: '19', title: 'Бокс с бургерами',                       image: '', size:'M',    price: 91,   type:'size_box',   description: '4 штук - 690 грамм'},
-    {id: '20', title: 'Бокс с бургерами',                       image: '', size:'L',    price: 101,  type:'size_box',   description: '9 штук - 1210 грамм'},
-    {id: '21', title: 'Бокс с бургерами',                       image: '', size:'XL',   price: 131,  type:'size_box',   description: '1610 грамм'},
-
     {id: '22', title: 'Бокс с сандвичами',                      image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20s%20bruskettami.jpg', size:'M',    price: 81,   type:'size_box',   description: '12 штук - 875 грамм'},
     {id: '23', title: 'Бокс с сандвичами',                      image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20s%20bruskettami.jpg', size:'L',    price: 91,  type:'size_box',    description: '16 штук - 1105 грамм'},
 
@@ -60,14 +56,9 @@ const products = [
     {id: 'box', title: 'Боксы',                                 image: 'https://em-content.zobj.net/source/telegram/386/sandwich_1f96a.webp', size:'',     price: 11,   type:'tag',        description: 'Боксы с вкусной начинкой'},
     // ** TAG
 
-    {id: '33', title: 'Бокс Веганский',                         image: '', size:'',     price: 91,   type:'box',         description: ''},
     {id: '34', title: 'Бокс десертный',                         image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20desertnyi.jpg', size:'',     price: 77,   type:'box',         description: ''},
     {id: '35', title: 'Бокс Круассанами',                       image: '', size:'',     price: 81,   type:'box',         description: ''},
     {id: '36', title: 'Бокс Завтрак Европейский',               image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/Box%20zavtrak%20evropeiskiy.jpg', size:'',     price: 81,   type:'box',        description: ''},
-    {id: '37', title: 'Бокс Завтрак Семейный ',                 image: '', size:'',     price: 81,   type:'box',        description: ''},
-    {id: '38', title: 'Бокс маленькая италия',                  image: '', size:'',     price: 57,   type:'box',        description: ''},
-    {id: '39', title: 'Бокс Для Любимой Мамы',                  image: '', size:'',     price: 110,  type:'box',        description: ''},
-    {id: '40', title: 'Бокс романтический',                     image: '', size:'',     price: 57,   type:'box',        description: ''},
     {id: '41', title: 'Бокс фруктовый',                         image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/Box%20fruktoviy.jpg', size:'',     price: 81,   type:'box',        description: ''},
     {id: '42', title: 'Бокс Тапас микс',                        image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20tapas.jpg', size:'',     price: 101,  type:'box',        description: ''},
     {id: '43', title: 'Бокс праздничный',                       image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/box%20prazdnichnui.jpg', size:'',     price: 91,   type:'box',        description: ''},
