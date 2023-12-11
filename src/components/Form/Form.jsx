@@ -53,7 +53,7 @@ const Form = () => {
     }
 
     const onChangeDistrict= (e) => {
-        setSubject(e.target.value)
+        setDistict(e.target.value)
     }
 
     return (
