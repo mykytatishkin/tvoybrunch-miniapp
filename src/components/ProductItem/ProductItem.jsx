@@ -9,7 +9,7 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
     }
 
     const onRemoveHandler = () => {
-        onRemove(product);
+        onRemove(product.id);
     }
 
     if(product.type == 'tag') {

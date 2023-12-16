@@ -168,14 +168,17 @@ const ProductList = () => {
     }
 
     const onRemove = (productId) => {
-        // Найти элемент с соответствующим id в массиве addedItems
-        const itemToRemove = addedItems.find(item => item.id === productId);
-        // Если элемент найден, создать новый массив без этого элемента
-        if (itemToRemove) {
-            const newItems = addedItems.filter(item => item.id !== productId);
-            setAddedItems(newItems);
+        const newItems = addedItems.filter(item => item.id !== productId);
+        setAddedItems(newItems);
+
+        if (newItems.length === 0) {
+            tg.MainButton.hide();
+        } else {
+            tg.MainButton.show();
+            tg.MainButton.setParams({
+                text: `Купить ${getTotalPrice(newItems)} BYN`
+            });
         }
-        // Если элемент не найден, можно предпринять необходимые действия (в данном случае ничего не делаем)
     };
 
     return (
