@@ -2,10 +2,14 @@ import React from 'react';
 import Button from "../Button/Button";
 import './ProductItem.css';
 
-const ProductItem = ({product, className, onAdd}) => {
+const ProductItem = ({product, onRemove, className, onAdd}) => {
 
     const onAddHandler = () => {
         onAdd(product);
+    }
+
+    const onRemoveHandler = () => {
+        onRemove(product);
     }
 
     if(product.type == 'tag') {
@@ -32,7 +36,10 @@ const ProductItem = ({product, className, onAdd}) => {
                 Стоимость: <b>{product.price} BYN</b>
                 </div>
                 <Button className={'add-btn'} onClick={onAddHandler}>
-                    Добавить в корзину
+                    Добавить
+                </Button>
+                <Button className={'add-btn'} onClick={onRemoveHandler}>
+                    Убрать
                 </Button>
             </div>
         );
