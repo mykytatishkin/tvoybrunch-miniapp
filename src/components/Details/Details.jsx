@@ -10,8 +10,6 @@ const Form = () => {
 
     return (
         <div className='details'>
-            <br/>
-            <br/>
             <h2>Детальная информация про товар</h2>
             
         </div>
