@@ -30,7 +30,7 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
         return (
             <div id={product.id} className={'product'}>
                     <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
-                    <a href="details"><div className={'title'}><h4>{product.title}</h4></div></a>
+                    <a className="details" href="details"><div className={'title'}><h4>{product.title}</h4></div></a>
                     <div className={'description'}>{product.description}</div>
                     <div className={'price'}>
                     Стоимость: <b>{product.price} BYN</b>
