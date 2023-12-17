@@ -65,6 +65,6 @@ a .product .price b {
 
 a {
     text-decoration: none;
-    background: var(--tg-theme-secondary-bg-color)red;
+    background: var(--tg-theme-secondary-bg-color);
 }
 /* background: var(--tg-theme-bg-color); */
