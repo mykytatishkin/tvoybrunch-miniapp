@@ -113,6 +113,8 @@ const products = [
     {id: '73', title: 'Пирог с соленой карамелью и орехами',    image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20solenoy%20karamelyu%20i%20orehami.jpg', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
 ]
 
+// TODO: const products = [*from db*]
+
 const getTotalPrice = (items = []) => {
     return items.reduce((acc, item) => {
         return acc += item.price

@@ -62,3 +62,7 @@
     width: 25%;
     background: var(--tg-theme-bg-color);
 }
+
+.DetailsBtn {
+    text-decoration: none;
+}
