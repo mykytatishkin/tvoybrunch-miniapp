@@ -146,14 +146,17 @@ const ProductList = () => {
     }, [onSendData])
 
     const onAdd = (product) => {
-        const alreadyAdded = addedItems.find(item => item.id === product.id);
         let newItems = [];
+        /* const alreadyAdded = addedItems.find(item => item.id === product.id);
 
         if(alreadyAdded) {
             newItems = addedItems.filter(item => item.id !== product.id);
         } else {
             newItems = [...addedItems, product];
         }
+        */
+
+        newItems = [...addedItems, product];
 
         setAddedItems(newItems)
 
