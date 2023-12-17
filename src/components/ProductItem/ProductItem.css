@@ -16,7 +16,7 @@
 }
 
 
-.img {
+a .img {
     /* width: 100%; */
     height: 100px;
     margin: 0 auto;
@@ -24,22 +24,22 @@
     border-radius: 12px;
 }
 
-.product .title {
+a .product .title {
     background: var(--tg-theme-secondary-bg-color);
 }
-.product .title h4{
+a .product .title h4{
     background: var(--tg-theme-secondary-bg-color);
 }
 
-.product .description {
+a .product .description {
     color: var(--tg-theme-hint-color);
     background: var(--tg-theme-secondary-bg-color);
 }
 
-.product .price {
+a .product .price {
     background: var(--tg-theme-secondary-bg-color);
 }
-.product .price b {
+a .product .price b {
     background: var(--tg-theme-secondary-bg-color);
 }
 
@@ -63,7 +63,7 @@
     background: var(--tg-theme-bg-color);
 }
 
-.DetailsBtn {
+a {
     text-decoration: none;
     background: var(--tg-theme-bg-color);
 }
