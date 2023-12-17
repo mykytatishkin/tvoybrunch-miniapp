@@ -65,4 +65,5 @@
 
 .DetailsBtn {
     text-decoration: none;
+    background: var(--tg-theme-bg-color);
 }
