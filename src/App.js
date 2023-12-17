@@ -8,6 +8,7 @@ import Form from "./components/Form/Form";
 import Contacts from "./components/Contacts/Contacts";
 import Profile from "./components/Profile/Profile"
 import Discounts from "./components/Discounts/Discounts"
+import Details from "./components/Details/Details"
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
                 <Route path={'contacts'} element={<Contacts />}/>
                 <Route path={'profile'} element={<Profile />}/>
                 <Route path={'discounts'} element={<Discounts />}/>
+                <Route path={'details'} element={<Discounts />}/>
             </Routes>
             <a className='dev_contact' href='https://t.me/ktotam112'> Contact developer </a>
         </div>
