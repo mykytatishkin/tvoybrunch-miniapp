@@ -29,19 +29,19 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
     else {
         return (
             <div id={product.id} className={'product'}>
-                <a className='DetailsBtn' href="google.com">
-                <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
-                <div className={'title'}><h4>{product.title}</h4></div>
-                <div className={'description'}>{product.description}</div>
-                <div className={'price'}>
-                Стоимость: <b>{product.price} BYN</b>
-                </div>
-                <Button className={'add-btn'} onClick={onAddHandler}>
-                    Добавить
-                </Button>
-                <Button className={'add-btn'} onClick={onRemoveHandler}>
-                    Убрать
-                </Button>
+                <a className='DetailsBtn' href="profile">
+                    <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
+                    <div className={'title'}><h4>{product.title}</h4></div>
+                    <div className={'description'}>{product.description}</div>
+                    <div className={'price'}>
+                    Стоимость: <b>{product.price} BYN</b>
+                    </div>
+                    <Button className={'add-btn'} onClick={onAddHandler}>
+                        Добавить
+                    </Button>
+                    <Button className={'add-btn'} onClick={onRemoveHandler}>
+                        Убрать
+                    </Button>
                 </a>
             </div>
         );
