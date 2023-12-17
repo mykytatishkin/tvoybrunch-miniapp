@@ -36,7 +36,7 @@ function App() {
                 <Route path={'contacts'} element={<Contacts />}/>
                 <Route path={'profile'} element={<Profile />}/>
                 <Route path={'discounts'} element={<Discounts />}/>
-                <Route path={'details'} element={<Discounts />}/>
+                <Route path={'details'} element={<Details />}/>
             </Routes>
             <a className='dev_contact' href='https://t.me/ktotam112'> Contact developer </a>
         </div>
