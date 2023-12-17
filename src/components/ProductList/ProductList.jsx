@@ -171,16 +171,12 @@ const ProductList = () => {
     }
 
     const onRemove = (productId) => {
-        const newItems = addedItems.filter(item => item.id !== productId);
-        setAddedItems(newItems);
+        const indexToRemove = addedItems.findIndex(item => item.id === productId);
 
-        if (newItems.length === 0) {
-            tg.MainButton.hide();
-        } else {
-            tg.MainButton.show();
-            tg.MainButton.setParams({
-                text: `Купить ${getTotalPrice(newItems)} BYN`
-            });
+        if (indexToRemove !== -1) {
+            const newItems = [...addedItems];
+            newItems.splice(indexToRemove, 1);
+            setAddedItems(newItems);
         }
     };
 
