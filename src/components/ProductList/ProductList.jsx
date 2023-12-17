@@ -171,13 +171,8 @@ const ProductList = () => {
     }
 
     const onRemove = (productId) => {
-        const indexToRemove = addedItems.findIndex(item => item.id === productId);
-
-        if (indexToRemove !== -1) {
-            const newItems = [...addedItems];
-            newItems.splice(indexToRemove, 1);
-            setAddedItems(newItems);
-        }
+        const newItems = addedItems.filter(item => item.id !== productId);
+        setAddedItems(newItems);
     };
 
     return (
