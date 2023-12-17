@@ -16,7 +16,7 @@
 }
 
 
-a .img {
+.img {
     /* width: 100%; */
     height: 100px;
     margin: 0 auto;
@@ -24,22 +24,22 @@ a .img {
     border-radius: 12px;
 }
 
-a .product .title {
+.product .title {
     background: var(--tg-theme-secondary-bg-color);
 }
-a .product .title h4{
+.product .title h4{
     background: var(--tg-theme-secondary-bg-color);
 }
 
-a .product .description {
+.product .description {
     color: var(--tg-theme-hint-color);
     background: var(--tg-theme-secondary-bg-color);
 }
 
-a .product .price {
+.product .price {
     background: var(--tg-theme-secondary-bg-color);
 }
-a .product .price b {
+.product .price b {
     background: var(--tg-theme-secondary-bg-color);
 }
 
