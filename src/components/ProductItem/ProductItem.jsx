@@ -29,7 +29,7 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
     else {
         return (
             <div id={product.id} className={'product'}>
-                <a className='DetailsBtn' href="profile">
+                <a className='DetailsBtn' href="details">
                     <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
                     <div className={'title'}><h4>{product.title}</h4></div>
                     <div className={'description'}>{product.description}</div>
