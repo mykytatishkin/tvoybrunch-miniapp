@@ -130,22 +130,23 @@ const ProductList = () => {
             products: addedItems,
             totalPrice: getTotalPrice(addedItems),
             queryId,
-        }
+            user: tg.initDataUnsafe?.user,
+        };
         fetch('https://www.tvoybranch-backend.space/web-data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(data)
-        })
-    }, [addedItems])
+            body: JSON.stringify(data),
+        });
+    }, [addedItems, queryId, tg.initDataUnsafe?.user]);
 
     useEffect(() => {
-        tg.onEvent('mainButtonClicked', onSendData)
+        tg.onEvent('mainButtonClicked', onSendData);
         return () => {
-            tg.offEvent('mainButtonClicked', onSendData)
-        }
-    }, [onSendData])
+            tg.offEvent('mainButtonClicked', onSendData);
+        };
+    }, [onSendData]);
 
     const onAdd = (product) => {
         let newItems = [];
