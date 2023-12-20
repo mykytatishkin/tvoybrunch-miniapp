@@ -1,63 +1,64 @@
-import React, {useCallback, useEffect, useState} from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import './Form.css';
-import {useTelegram} from "../../hooks/useTelegram";
+import { useTelegram } from '../../hooks/useTelegram';
 
 const Form = () => {
     const [country, setCountry] = useState('');
     const [street, setStreet] = useState('');
     const [subject, setSubject] = useState('physical');
     const [district, setDistrict] = useState('');
-    const {tg} = useTelegram();
+    const { tg, user } = useTelegram();
 
     const onSendData = useCallback(() => {
         const data = {
             country,
             street,
             subject,
-            district
-        }
+            district,
+            username: user.username, // Include the username in the data
+        };
         tg.sendData(JSON.stringify(data));
-    }, [country, street, subject, district])
+    }, [country, street, subject, district, tg, user]);
 
     useEffect(() => {
-        tg.onEvent('mainButtonClicked', onSendData)
+        tg.onEvent('mainButtonClicked', onSendData);
         return () => {
-            tg.offEvent('mainButtonClicked', onSendData)
-        }
-    }, [onSendData])
+            tg.offEvent('mainButtonClicked', onSendData);
+        };
+    }, [onSendData]);
 
     useEffect(() => {
         tg.MainButton.setParams({
-            text: 'Отправить данные'
-        })
-    }, [])
+            text: 'Отправить данные',
+        });
+    }, [tg]);
 
     useEffect(() => {
-        if(!street || !country || !district ) {
+        if (!street || !country || !district) {
             tg.MainButton.hide();
         } else {
             tg.MainButton.show();
         }
-    }, [country, street])
+    }, [country, street, district, tg]);
 
     const onChangeCountry = (e) => {
-        setCountry(e.target.value)
-    }
+        setCountry(e.target.value);
+    };
 
     const onChangeStreet = (e) => {
-        setStreet(e.target.value)
-    }
+        setStreet(e.target.value);
+    };
 
     const onChangeSubject = (e) => {
-        setSubject(e.target.value)
-    }
+        setSubject(e.target.value);
+    };
 
-    const onChangeDistrict= (e) => {
-        setDistrict(e.target.value)
-    }
+    const onChangeDistrict = (e) => {
+        setDistrict(e.target.value);
+    };
 
     return (
-        <div className={"form"}>
+        <div className={'form'}>
             <h3>Введите ваши данные</h3>
             <input
                 className={'input'}
@@ -78,13 +79,12 @@ const Form = () => {
                 <option value={'legal'}>Юр. лицо</option>
             </select>
             <select value={district} onChange={onChangeDistrict} className={'select'}>
-                <option value='0' >Выберите район</option>
+                <option value="0">Выберите район</option>
                 <option value={'1'}>Район 1</option>
                 <option value={'2'}>Район 2</option>
                 <option value={'3'}>Район 3</option>
                 <option value={'4'}>Район 4</option>
             </select>
-            
         </div>
     );
 };
