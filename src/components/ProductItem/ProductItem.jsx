@@ -3,10 +3,14 @@ import Button from "../Button/Button";
 import './ProductItem.css';
 
 const ProductItem = ({product, onRemove, className, onAdd}) => {
-    let amount = document.getElementById("#amount"); 
+    let amount = document.getElementById("amount"); 
+    
     const onAddHandler = () => {
         onAdd(product);
-        amount.textContent += 1;
+        
+        let currentAmount = parseInt(amount.textContent);
+        currentAmount += 1;
+        amount.textContent = currentAmount;
     }
 
     const onRemoveHandler = () => {
