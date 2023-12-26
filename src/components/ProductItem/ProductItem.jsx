@@ -37,7 +37,7 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
                     <div className={'price'}>
                     Стоимость: <b>{product.price} BYN</b>
                     </div>
-                    <div>
+                    <div className={'title'}>
                         <Button className={'add-btn'} onClick={onAddHandler}>
                             +
                         </Button>
