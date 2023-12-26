@@ -6,16 +6,16 @@ import {useCallback, useEffect} from "react";
 
 const products = [ 
     // ** TAG
-    {id: 'offers', title: 'Горячие предложения',              image: 'https://em-content.zobj.net/source/telegram/386/fire_1f525.webp', size:'',     price: 11,   type:'tag',        description: 'Специальные акции'},
+    {id: 'offers', title: 'Горячие предложения',                amount: 0, image: 'https://em-content.zobj.net/source/telegram/386/fire_1f525.webp', size:'',     price: 11,   type:'tag',        description: 'Специальные акции'},
     // ** TAG
 
     // ** TAG
-    {id: 'size_box', title: 'Комбо Боксы',                      image: 'https://em-content.zobj.net/source/telegram/386/bento-box_1f371.webp', size:'',     price: 11,   type:'tag',        description: 'Боксы с разными продуктами на любой вкус и цвет и главное, на любой размер'},
+    {id: 'size_box', title: 'Комбо Боксы',                      amount: 0, image: 'https://em-content.zobj.net/source/telegram/386/bento-box_1f371.webp', size:'',     price: 11,   type:'tag',        description: 'Боксы с разными продуктами на любой вкус и цвет и главное, на любой размер'},
     // ** TAG
     
-    {id: '1',  title: 'Бокс с Тарталетками',                    image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/box%20s%20bruskettami.jpg?raw=true', size:'M',    price: 91,  type:'size_box',  description: '20 штук - 740 грамм'},
-    {id: '2',  title: 'Бокс с Тарталетками',                    image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/box%20s%20bruskettami.jpg?raw=true', size:'L',    price: 101, type:'size_box',    description: '25 штук - 1190 грамм'},
-    {id: '3',  title: 'Бокс с Тарталетками',                    image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/box%20s%20bruskettami.jpg?raw=true', size:'XL',   price: 131, type:'size_box',    description: '30 штук - 1510 грамм'},
+    {id: '1',  title: 'Бокс с Тарталетками',                    amount: 0, image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/box%20s%20bruskettami.jpg?raw=true', size:'M',    price: 91,  type:'size_box',  description: '20 штук - 740 грамм'},
+    {id: '2',  title: 'Бокс с Тарталетками',                    amount: 0, image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/box%20s%20bruskettami.jpg?raw=true', size:'L',    price: 101, type:'size_box',    description: '25 штук - 1190 грамм'},
+    {id: '3',  title: 'Бокс с Тарталетками',                    amount: 0, image: 'https://github.com/mykytatishkin/tvoybrunch-miniapp/blob/main/src/components/ProductList/imgs/box%20s%20bruskettami.jpg?raw=true', size:'XL',   price: 131, type:'size_box',    description: '30 штук - 1510 грамм'},
 
     {id: '4',  title: 'Бокс Брускетта delicious',               image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/Box_brusketty_delicious.jpg', size:'M',    price: 91,  type:'size_box',    description: '12 штук - 750 грамм'},
     {id: '5',  title: 'Бокс Брускетта delicious',               image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/Box_brusketty_delicious.jpg', size:'L',    price: 101, type:'size_box',    description: '16 штук - 910 грамм'},
