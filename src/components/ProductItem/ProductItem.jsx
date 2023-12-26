@@ -41,7 +41,7 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
                         <Button className={'add-btn'} onClick={onAddHandler}>
                             +
                         </Button>
-                        <Button className={'counter'}>{product.amount}</Button>
+                        <Button onClick={onRemoveHandler} className={'counter'}>{product.amount}</Button>
                     </div>
             </div>
         );
