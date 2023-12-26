@@ -40,10 +40,9 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
                     Стоимость: <b>{product.price} BYN</b>
                     </div>
                     <div className={'title'}>
-                        <Button className={'add-btn'} onClick={onAddHandler}>
-                            +
-                        </Button>
-                        <Button onClick={onRemoveHandler} className={'counter'}>{product.amount}</Button>
+                        <Button className={'add-btn'} onClick={onAddHandler}>+</Button>
+                        <span>{product.amount}</span>
+                        <Button className={'add-btn'} onClick={onRemoveHandler}>-</Button>
                     </div>
             </div>
         );
