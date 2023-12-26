@@ -12,6 +12,8 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
 
     const onRemoveHandler = () => {
         onRemove(product.id);
+
+        product.amount = 0;
     }
 
     if(product.type == 'tag') {
