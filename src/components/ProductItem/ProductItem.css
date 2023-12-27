@@ -58,6 +58,7 @@
     text-align: center;
     color: var(--tg-theme-color);
     justify-content: center;
+    background: var(--tg-theme-secondary-bg-color);
 }
 .counter {
     background: var(--tg-theme-bg-color);
