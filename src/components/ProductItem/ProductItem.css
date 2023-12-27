@@ -52,7 +52,12 @@
 .product .title .add-btn {
     width: 30%;
     padding-right: 1em;
+}
+.product .title span {
+    display: inline-block;
     text-align: center;
+    color: var(--tg-theme-color);
+    justify-content: center;
 }
 .counter {
     background: var(--tg-theme-bg-color);
