@@ -13,7 +13,7 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
     const onRemoveHandler = () => {
         onRemove(product.id);
 
-        product.amount = 0;
+        product.amount -= 1;
     }
 
     if(product.type == 'tag') {
