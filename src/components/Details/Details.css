@@ -3,7 +3,7 @@
 }
 
 .details h3 {
-    color: var(--tg-theme-color);
+    color: var(--tg-theme-button-color);
 }
 
 .details .img-details {
