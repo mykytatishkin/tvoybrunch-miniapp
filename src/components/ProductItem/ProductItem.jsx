@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from "../Button/Button";
 import './ProductItem.css';
+import { Link } from 'react-router-dom';
 
 const ProductItem = ({product, onRemove, className, onAdd}) => {
     
@@ -33,18 +34,24 @@ const ProductItem = ({product, onRemove, className, onAdd}) => {
     else {
         return (
             <div id={product.id} className={'product'}>
-                    <div className={'img'}><img className={'img'} src={product.image} alt="picture"/></div>
-                    <a className="details" href={"details"+product.id}><div className={'title'}><h4>{product.title}</h4></div></a>
-                    <div className={'description'}>{product.description}</div>
-                    <div className={'price'}>
-                    Стоимость: <b>{product.price} BYN</b>
-                    </div>
-                    <div className={'title'}>
-                        <Button className={'add-btn'} onClick={onAddHandler}>+</Button>
-                        <span className={'add-btn'}>{product.amount}</span>
-                        <Button className={'add-btn'} onClick={onRemoveHandler}>-</Button>
-                    </div>
-            </div>
+    <div className={'img'}>
+        <img className={'img'} src={product.image} alt="picture" />
+    </div>
+    <Link className="details" to={`/details/${product.id}`}>
+        <div className={'title'}>
+            <h4>{product.title}</h4>
+        </div>
+    </Link>
+    <div className={'description'}>{product.description}</div>
+    <div className={'price'}>
+        Стоимость: <b>{product.price} BYN</b>
+    </div>
+    <div className={'title'}>
+        <Button className={'add-btn'} onClick={onAddHandler}>+</Button>
+        <span className={'add-btn'}>{product.amount}</span>
+        <Button className={'add-btn'} onClick={onRemoveHandler}>-</Button>
+    </div>
+</div>
         );
     }
 };
