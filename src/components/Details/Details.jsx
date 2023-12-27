@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useTelegram } from '../../hooks/useTelegram';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import './Details.css'
 
 const Details = () => {
     const { tg, user } = useTelegram();
@@ -43,7 +44,7 @@ const Details = () => {
             <div>
                 <h3>{productDetails.title}</h3>
                 <p>{productDetails.description}</p>
-                <img src={productDetails.image} alt="picture" />
+                <img className={'img-details'} src={productDetails.image} alt="picture" />
                 {/* Другие поля продукта */}
             </div>
         </div>

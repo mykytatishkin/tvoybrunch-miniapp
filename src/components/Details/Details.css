@@ -1,0 +1,12 @@
+.details {
+    padding-left: 1em;
+}
+
+.details h3 {
+    color: var(--tg-theme-color);
+}
+
+.details .img-details {
+    width: 40%;
+    border-radius: 12px;
+}
