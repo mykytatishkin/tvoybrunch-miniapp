@@ -43,6 +43,7 @@ const Details = () => {
             <div>
                 <h3>{productDetails.title}</h3>
                 <p>{productDetails.description}</p>
+                <img src={productDetails.image} alt="picture" />
                 {/* Другие поля продукта */}
             </div>
         </div>
