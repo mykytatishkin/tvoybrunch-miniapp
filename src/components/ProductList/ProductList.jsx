@@ -174,18 +174,24 @@ const ProductList = () => {
     }
 
     const onRemove = (productId) => {
-        const newItems = addedItems.filter(item => item.id !== productId);
-        setAddedItems(newItems);
-
-        if (newItems.length === 0) {
-            tg.MainButton.hide();
-        } else {
-            tg.MainButton.show();
-            tg.MainButton.setParams({
-                text: `Купить ${getTotalPrice(newItems)} BYN`
-            });
+        const indexToRemove = addedItems.findIndex(item => item.id === productId);
+    
+        if (indexToRemove !== -1) {
+            // Удаляем только последний элемент с указанным id
+            addedItems.splice(indexToRemove, 1);
+            setAddedItems([...addedItems]); // Создаем новый массив, чтобы обновить состояние
+    
+            if (addedItems.length === 0) {
+                tg.MainButton.hide();
+            } else {
+                tg.MainButton.show();
+                tg.MainButton.setParams({
+                    text: `Купить ${getTotalPrice(addedItems)} BYN`
+                });
+            }
         }
     };
+    
 
     return (
         <div className={'list'}>

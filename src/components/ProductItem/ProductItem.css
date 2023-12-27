@@ -49,8 +49,10 @@
     background: var(--tg-theme-secondary-bg-color);
 }*/
 
-.add-btn {
+.product .title .add-btn {
     width: 30%;
+    padding-right: 1em;
+    text-align: center;
 }
 .counter {
     background: var(--tg-theme-bg-color);
