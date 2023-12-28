@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useTelegram } from '../../hooks/useTelegram';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import './Details.css'
+import './Details.css';
 
 const Details = () => {
     const { tg, user } = useTelegram();
@@ -122,14 +122,18 @@ const Details = () => {
         
             {id: '72', title: 'Пирог с соленой карамелью и орехами',    amount: 0, image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20solenoy%20karamelyu%20i%20orehami.jpg', size:'M',    price: 42,   type:'pie',       description: '650 грамм'},
             {id: '73', title: 'Пирог с соленой карамелью и орехами',    amount: 0, image: 'https://raw.githubusercontent.com/mykytatishkin/tvoybrunch-miniapp/main/src/components/ProductList/imgs/pirog%20s%20solenoy%20karamelyu%20i%20orehami.jpg', size:'L',    price: 49,   type:'pie',       description: '1000 грамм'},
-        ]
+        ];
 
-        // Если productId существует и равен '1', устанавливаем детали продукта
-        if (productId && productId === '1') {
-            setProductDetails(dummyProductDetails);
-        } else {
-            // Обработка случая, когда продукт не найден
-            setProductDetails(null);
+        // Если productId существует, устанавливаем детали продукта
+        if (productId) {
+            const selectedProduct = dummyProductDetails.find(product => product.id === productId);
+
+            if (selectedProduct) {
+                setProductDetails(selectedProduct);
+            } else {
+                // Обработка случая, когда продукт не найден
+                setProductDetails(null);
+            }
         }
     }, [productId]);
 
