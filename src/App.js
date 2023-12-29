@@ -23,13 +23,13 @@ function App() {
             
             <list className={'topnav'}>
                 <ul>
+                <li><a href="#offers">Большие члены</a></li>
                     <li><a href="#offers">🔥 Горячие предложения</a></li>
                     <li><a href="#size_box">🍱 Комбо Боксы</a></li>
                     <li><a href="#box">🥡 Боксы</a></li>
                     <li><a href="#pie">🥧Пироги</a></li>
                 </ul>
             </list>
-            Писюн
             <Header />
             <Routes>
                 <Route index element={<ProductList />}/>
