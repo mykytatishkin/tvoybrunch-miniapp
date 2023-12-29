@@ -133,7 +133,7 @@ const Details = () => {
             <h2>Детальная информация про товар</h2>
             <div>
                 <h3>{productDetails.title}</h3>
-                <p>{productDetails.description}</p>
+                <p className={'descriptions'}>{productDetails.description}</p>
                 <p>{productDetails.ingirients}</p>
                 <img className={'img-details'} src={productDetails.image} alt="picture" />
                 {/* Другие поля продукта */}
