@@ -23,7 +23,6 @@ function App() {
             
             <list className={'topnav'}>
                 <ul>
-                <li><a href="#offers">Большие члены</a></li>
                     <li><a href="#offers">🔥 Горячие предложения</a></li>
                     <li><a href="#size_box">🍱 Комбо Боксы</a></li>
                     <li><a href="#box">🥡 Боксы</a></li>
