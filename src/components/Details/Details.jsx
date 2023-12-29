@@ -4,6 +4,7 @@ import { useTelegram } from '../../hooks/useTelegram';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './Details.css';
+import '../../hooks/products'
 
 const Details = () => {
     const { tg, user } = useTelegram();

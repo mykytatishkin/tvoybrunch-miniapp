@@ -3,6 +3,7 @@ import './ProductList.css';
 import ProductItem from "../ProductItem/ProductItem";
 import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
+import '../../hooks/products'
 
 const products = [ 
     {id: 'offers', title: 'Горячие предложения',                amount: 0, image: 'https://em-content.zobj.net/source/telegram/386/fire_1f525.webp', size:'',     price: 11,   type:'tag',        description: 'Специальные акции'},
