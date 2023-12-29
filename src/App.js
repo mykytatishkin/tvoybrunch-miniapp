@@ -29,6 +29,7 @@ function App() {
                     <li><a href="#pie">🥧Пироги</a></li>
                 </ul>
             </list>
+            Писюн
             <Header />
             <Routes>
                 <Route index element={<ProductList />}/>
