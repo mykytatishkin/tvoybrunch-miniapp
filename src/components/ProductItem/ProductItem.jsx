@@ -25,7 +25,6 @@ const ProductItem = ({ product, onRemove, className, onAdd }) => {
                     <div id={product.id}><img className='ico' src={product.image} alt="" /></div>
                     <div className={'title'}><b><h1>{product.title}</h1></b></div>
                     <div className={'description'}><p>{product.description}</p></div>
-                    <Button className={'add-btn'} onClick={onAddHandler}>Купить</Button>
                 </>
             ) : (
                 <>
