@@ -134,6 +134,7 @@ const Details = () => {
             <div>
                 <h3>{productDetails.title}</h3>
                 <p>{productDetails.description}</p>
+                <p>{productDetails.ingirients}</p>
                 <img className={'img-details'} src={productDetails.image} alt="picture" />
                 {/* Другие поля продукта */}
             </div>
