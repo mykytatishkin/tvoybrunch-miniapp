@@ -1,5 +1,6 @@
 .details {
     padding-left: 1em;
+    background-color: var(--tg-theme-secondary-bg-color);
 }
 
 .details h3 {
