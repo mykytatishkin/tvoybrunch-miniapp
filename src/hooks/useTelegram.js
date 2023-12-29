@@ -7,7 +7,7 @@ export function useTelegram() {
     }
 
     const onBack = () => {
-        tg.BackButton.show();
+        window.location.href = "https://rococo-lily-4bd96e.netlify.app/";
     }
 
     const onToggleButton = () => {
