@@ -80,10 +80,16 @@ const Form = () => {
             </select>
             <select value={district} onChange={onChangeDistrict} className={'select'}>
                 <option value="0">Выберите район</option>
-                <option value={'1'}>Район 1</option>
-                <option value={'2'}>Район 2</option>
-                <option value={'3'}>Район 3</option>
-                <option value={'4'}>Район 4</option>
+                <option value={'1'}>Центральный</option>
+                <option value={'2'}>Советский</option>
+                <option value={'3'}>Первомайский</option>
+                <option value={'4'}>Партизанский</option>
+                <option value={'5'}>Заводской</option>
+                <option value={'6'}>Ленинский</option>
+                <option value={'7'}>Октябрський</option>
+                <option value={'8'}>Московский</option>
+                <option value={'9'}>Фрузенский</option>
+                <option value={'10'}>За МКАДом</option>
             </select>
         </div>
     );
