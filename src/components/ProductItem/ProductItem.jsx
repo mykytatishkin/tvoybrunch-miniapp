@@ -42,7 +42,7 @@ const ProductItem = ({ product, onRemove, className, onAdd }) => {
                     </div>
                     <div className={'title'}>
                         <Button className={'add-btn'} onClick={onAddHandler}>+</Button>
-                        <span className={'add-btn'}>{product.amount}</span>
+                        <span className={'add-btn'}>&nbsp;{product.amount}</span>
                         <Button className={'add-btn'} onClick={onRemoveHandler}>-</Button>
                     </div>
                 </>
