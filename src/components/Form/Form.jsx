@@ -60,7 +60,7 @@ const Form = () => {
     return (
         <div className={'form'}>
             <div className="address">
-                <p>Адресс доставки</p>
+                <h5>Адресс доставки</h5>
                 <input
                     className={'input'}
                     type="text"
@@ -94,13 +94,13 @@ const Form = () => {
                 </select>
             </div>
             <div className="payment">
-                <p>Способ оплаты</p>
+                <h5>Способ оплаты</h5>
                 <select className={'select'} size='1'>
                     <option value="Cash">Наличные</option>
                 </select>
             </div>
             <div className="delivery">
-                <p>Способ доставки</p>
+                <h5>Способ доставки</h5>
                 <select className={'select'} size='2'>
                     <option value="Delivery">Доставка</option>
                     <option value="ByThemself">Самовывоз</option>
