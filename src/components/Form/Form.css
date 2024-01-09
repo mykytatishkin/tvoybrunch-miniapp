@@ -21,3 +21,6 @@ select {
 option {
     background-color: var(--tg-theme-bg-color);
 }
+option:checked {
+    background-color: var(--tg-theme-button-color);
+} 
