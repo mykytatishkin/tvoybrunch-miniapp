@@ -96,14 +96,15 @@ const Form = () => {
             <div className="payment">
                 <h5>Способ оплаты</h5>
                 <select className={'select'} size='1'>
-                    <option value="Cash">Наличные</option>
+                    <option value={"Cash"}>Наличные</option>
+                    <option value={"Card"} disabled>Картой</option>
                 </select>
             </div>
-            <div className="delivery">
+            <div className={"delivery"}>
                 <h5>Способ доставки</h5>
                 <select className={'select'} size='2'>
-                    <option value="Delivery">Доставка</option>
-                    <option value="ByThemself">Самовывоз</option>
+                    <option value={"Delivery"} selected>Доставка</option>
+                    <option value={"ByThemself"}>Самовывоз</option>
                 </select>
             </div>
             <div className="items">
