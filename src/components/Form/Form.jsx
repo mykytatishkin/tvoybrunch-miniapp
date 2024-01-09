@@ -108,7 +108,7 @@ const Form = () => {
                 </select>
             </div>
             <div className="items">
-                <p>Ваш заказ</p>
+                <h5>Ваш заказ</h5>
             </div>
         </div>
     );
