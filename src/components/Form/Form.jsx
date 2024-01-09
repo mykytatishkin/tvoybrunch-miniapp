@@ -59,38 +59,56 @@ const Form = () => {
 
     return (
         <div className={'form'}>
-            <h3>Введите ваши данные</h3>
-            <input
-                className={'input'}
-                type="text"
-                placeholder={'Номер дома'}
-                value={country}
-                onChange={onChangeCountry}
-            />
-            <input
-                className={'input'}
-                type="text"
-                placeholder={'Улица'}
-                value={street}
-                onChange={onChangeStreet}
-            />
-            <select value={subject} onChange={onChangeSubject} className={'select'}>
-                <option value={'physical'}>Физ. лицо</option>
-                <option value={'legal'}>Юр. лицо</option>
-            </select>
-            <select value={district} onChange={onChangeDistrict} className={'select'}>
-                <option value="0">Выберите район</option>
-                <option value={'1'}>Центральный</option>
-                <option value={'2'}>Советский</option>
-                <option value={'3'}>Первомайский</option>
-                <option value={'4'}>Партизанский</option>
-                <option value={'5'}>Заводской</option>
-                <option value={'6'}>Ленинский</option>
-                <option value={'7'}>Октябрський</option>
-                <option value={'8'}>Московский</option>
-                <option value={'9'}>Фрузенский</option>
-                <option value={'10'}>За МКАДом</option>
-            </select>
+            <div className="address">
+                <p>Адресс доставки</p>
+                <input
+                    className={'input'}
+                    type="text"
+                    placeholder={'Номер дома'}
+                    value={country}
+                    onChange={onChangeCountry}
+                />
+                <input
+                    className={'input'}
+                    type="text"
+                    placeholder={'Улица'}
+                    value={street}
+                    onChange={onChangeStreet}
+                />
+                <select value={subject} onChange={onChangeSubject} className={'select'}>
+                    <option value={'physical'}>Физ. лицо</option>
+                    <option value={'legal'}>Юр. лицо</option>
+                </select>
+                <br />
+                <select size="10" value={district} onChange={onChangeDistrict} className={'select'}>
+                    <option value={'1'}>Центральный</option>
+                    <option value={'2'}>Советский</option>
+                    <option value={'3'}>Первомайский</option>
+                    <option value={'4'}>Партизанский</option>
+                    <option value={'5'}>Заводской</option>
+                    <option value={'6'}>Ленинский</option>
+                    <option value={'7'}>Октябрський</option>
+                    <option value={'8'}>Московский</option>
+                    <option value={'9'}>Фрузенский</option>
+                    <option value={'10'}>За МКАДом</option>
+                </select>
+            </div>
+            <div className="payment">
+                <p>Способ оплаты</p>
+                <select className={'select'} size='1'>
+                    <option value="Cash">Наличные</option>
+                </select>
+            </div>
+            <div className="delivery">
+                <p>Способ доставки</p>
+                <select className={'select'} size='2'>
+                    <option value="Delivery">Доставка</option>
+                    <option value="ByThemself">Самовывоз</option>
+                </select>
+            </div>
+            <div className="items">
+                <p>Ваш заказ</p>
+            </div>
         </div>
     );
 };
